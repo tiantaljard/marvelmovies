@@ -10,7 +10,7 @@
 </header>
 <main>
     <section>
-        <h2>Connect to three bla database</h2>
+        <h2>Connect to three bla  fssasd  database</h2>
 
         <p><a href="dbConnect.php">Connect</a></p>
 
