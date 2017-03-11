@@ -23,15 +23,4 @@ if (!$link) {
     exit;
 }
 
-
-                $sql_query = "SELECT * FROM marvelmovies WHERE superpower LIKE '%laser%'";
-                $result = $db->query($sql_query);
-                while($row = $result->fetch_array()){ echo "<p>” .[$row'superheroName']. “</p>";
-                }
-                $result->close();
-                // close connection to database
-                $db->close();
-
-
-
 ?>
