@@ -6,21 +6,18 @@
 </head>
 <body>
 <header>
-    <h1>Michael Crabb - CV</h1>
+    <h1>Marvel Movies</h1>
 </header>
 <main>
     <section>
-        <h2>Connect to three bla  fssasd  database</h2>
+        <h2>Connect to database</h2>
 
         <p><a href="dbConnect.php">Connect</a></p>
 
     </section>
-    <section>
-        <h2>Educa  tion</h2>
-    </section>
+
 </main>
 <footer>
-    <p>Last Updated 19/9/2016</p>
 </footer>
 </body>
 </html>
