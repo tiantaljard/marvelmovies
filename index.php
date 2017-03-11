@@ -15,7 +15,7 @@
                 what
                 <?php
                     print "one b";
-
+                    include "dbConnect.php";
                     print "three";
                  ?>
             </p>
