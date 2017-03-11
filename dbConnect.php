@@ -22,4 +22,17 @@ if (!$link) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
+
+
+                    include "dbConnect.php";
+                $sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
+                $result = $db->query($sql_query);
+                while($row = $result->fetch_array()){ echo "<p>” .[$row'superheroName']. “</p>";
+                }
+                $result->close();
+                // close connection to database
+                $db->close();
+
+
+
 ?>
