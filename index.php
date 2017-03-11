@@ -14,10 +14,20 @@
             <p>
                 what
                 <?php
-                    print "one b";
                     include "dbConnect.php";
-                    print "three";
-                 ?>
+                $sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
+                $result = $db->query($sql_query);
+                while($row = $result->fetch_array()){ echo "<p>” .[$row'superheroName']. “</p>";
+                }
+
+                $result->close();
+                // close connection to database
+                $db->close();
+
+
+
+
+                ?>
             </p>
 
         <p><a href="dbConnect.php">Connect</a></p>
