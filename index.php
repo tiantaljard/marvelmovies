@@ -11,19 +11,6 @@
 <main>
     <section>
         <h2>Connect to three bla database</h2>
-            <p>
-
-                <?php
-                    include "dbConnect.php";
-                $sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
-                $result = $db->query($sql_query);
-                while($row = $result->fetch_array()){ echo "<p>” .[$row'superheroName']. “</p>";
-                }
-                $result->close();
-                // close connection to database
-                $db->close();
-                ?>
-            </p>
 
         <p><a href="dbConnect.php">Connect</a></p>
 
