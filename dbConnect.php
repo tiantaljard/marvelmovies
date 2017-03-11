@@ -23,7 +23,7 @@ if (!$link) {
     exit;
 }
 
-$sql_query = "SELECT * FROM marvelmovies ";
+$sql_query = "SELECT title FROM marvelmovies ";
 $result = $link->query($sql_query);
 while($row = $result->fetch_array()){
     // print out fields from row of data
