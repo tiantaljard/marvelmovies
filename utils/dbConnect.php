@@ -20,8 +20,10 @@ define('DB_USERNAME', $connectstr_dbname);
 define('DB_PASSWORD', $connectstr_dbusername);
 define('DB_DATABASE', $connectstr_dbpassword);
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-print $db;
-print $link;
+
+echo "<p>".$db."</p>";
+echo "<p>".$link."</p>";
+
 
 
 if (!$link) {
