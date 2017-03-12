@@ -12,7 +12,7 @@
     <section>
         <h2>Connect to  database</h2>
         <?
-        include 'dbConnect.php';
+        include 'utils\dbConnect.php';
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
