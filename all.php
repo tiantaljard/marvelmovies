@@ -17,7 +17,7 @@
         $result = $link->query($sql_query);
         while($row = $result->fetch_array()){
             // print out fields from row of data
-            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['notes']."</p>";
+            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['productionStudio']."</p>";
 
         }
         $result->close();
