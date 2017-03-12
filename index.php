@@ -13,11 +13,11 @@
         <h2>Connect to  database</h2>
         <?
         include 'utils\dbConnect.php';
-        print " hello ";
+        print " hello.$db ";
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="utils\dbConnect.php">dbC10onnect</a></p>
+        <p><a href="utils\dbConnect.php">dbC11onnect</a></p>
 
     </section>
 
