@@ -27,7 +27,15 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
     //$result = $link->query($sql_query);
 
     //$sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
-     $result = mysqli_query($db, $sql);
+     $result = mysqli_query($link, $sql_query);
+
+    while($row = $result->fetch_array()){
+        // print out fields from row of data
+        echo "<p>".$row ['uid']. "</p>";
+
+    }
+    $result->close();
+    $link->close();
 
 
 
