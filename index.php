@@ -17,14 +17,15 @@
         print " dbname- ".$connectstr_dbname."<br>";
         print " dbusername- ".$connectstr_dbusername."<br>";
         print " dbpassword- ".$connectstr_dbpassword."<br>";
+        print " link-".$link."<br>";
         print " db- ".$db."<br>";
-        print " link- ".$link."<br>";
+
 
 
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="utils\dbConnect.php">dbC19Aonnect</a></p>
+        <p><a href="utils\dbConnect.php">dbC20Aonnect</a></p>
 
     </section>
 
