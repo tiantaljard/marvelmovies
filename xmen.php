@@ -20,8 +20,9 @@
             echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio']."</p>";
             $notes=$row ['notes'];
             $len=$row ['llen'];
-            echo "<p>$notes, $len,TT</p>";
-
+            if ($len>0) {
+                echo "<p>$notes, $len,TT</p>";
+            }
 
 
         }
