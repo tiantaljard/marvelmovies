@@ -22,7 +22,7 @@
          //   $len=$row ['llen'];
          //   $isnull=$row ['isn'];
          //   if ($len>0) {
-            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['productionStudio']."</p>";
+            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['productionStudio'].$db "</p>";
        //     }
 
 
