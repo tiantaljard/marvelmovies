@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>All Marvel Movies</title>
+    <title>X-Men Movies</title>
 </head>
 <body>
 <header>
-    <h1>All Marvel Movies</h1>
+    <h1>X-Men Movies</h1>
 </header>
 <main>
     <section>
