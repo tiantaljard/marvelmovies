@@ -16,9 +16,6 @@
         ?>
         <p><a href="dbConnect.php">Connect</a></p>
 
-        <?php
-        ;
-        ?>
 
     </section>
 
