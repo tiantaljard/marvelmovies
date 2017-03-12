@@ -17,12 +17,12 @@
         $result = $link->query($sql_query);
         while($row = $result->fetch_array()){
             // print out fields from row of data
-            echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio']."</p>";
+            echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio'].$db."</p>";
             $notes=$row ['notes'];
          //   $len=$row ['llen'];
          //   $isnull=$row ['isn'];
          //   if ($len>0) {
-            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['productionStudio'].$db "</p>";
+            echo "<p>".$row ['marvelMovieID']. " - ". $row ['title']." - ".$row ['productionStudio'].$db."</p>";
        //     }
 
 
