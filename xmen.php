@@ -22,7 +22,7 @@
          //   $len=$row ['llen'];
          //   $isnull=$row ['isn'];
          //   if ($len>0) {
-                echo "<p>$notes, $len,TT,isnull</p>";
+                echo "<p>$notes</p>";
        //     }
 
 
