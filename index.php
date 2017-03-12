@@ -11,7 +11,9 @@
 <main>
     <section>
         <h2>Connect to  database</h2>
-
+        >?
+        include dbConnect.php;
+        ?>
         <p><a href="dbConnect.php">Connect</a></p>
 
     </section>
