@@ -20,7 +20,7 @@
             echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio']."</p>";
             $notes=$row ['notes'];
 
-                echo "<p>$notes</p>";
+                echo "<p>is_null($notes)</p>";
 
 
         }
