@@ -18,7 +18,10 @@
         while($row = $result->fetch_array()){
             // print out fields from row of data
             echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio']."</p>";
-            echo "<p>".$row ['notes']. " - ". $row ['title']."</p>";
+            if ($row ['notes'] =! null) {
+                echo "<p>".$row ['notes']."</p>";    ;
+            }
+
 
         }
         $result->close();
