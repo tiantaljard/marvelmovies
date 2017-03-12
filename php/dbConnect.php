@@ -20,9 +20,6 @@ define('DB_USERNAME', $connectstr_dbname);
 define('DB_PASSWORD', $connectstr_dbusername);
 define('DB_DATABASE', $connectstr_dbpassword);
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-//echo " helloDB.$db ";
-//echo " helloLINK.$link ";
-
 
 if (!$link) {
     echo "Error: Una ble to  connect to MySQL." . PHP_EOL;

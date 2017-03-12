@@ -12,22 +12,35 @@
     <section>
         <h2>Connect to  database</h2>
         <?
-        include 'utils\dbConnect.php';
+        include 'php\dbConnect.php';
         print " dbhost - ".$connectstr_dbhost."<br>";
         print " dbname- ".$connectstr_dbname."<br>";
         print " dbusername- ".$connectstr_dbusername."<br>";
         print " dbpassword- ".$connectstr_dbpassword."<br>";
-        //print " link-".$link."<br>";
-        print " db- ".$db."<br>";
-
-
-
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
         <p><a href="utils\dbConnect.php">dbC21Aonnect</a></p>
 
     </section>
+
+    <div class="loginBox">
+        <h3>Login Form</h3>
+        <br><br>
+        <form method="post" action="login.php">
+            <label>Username:</label><br>
+            <input type="text" name="username" placeholder="username" /><br><br>
+            <label>Password:</label><br>
+            <input type="password" name="password" placeholder="password" />  <br><br>
+            <input type="submit" name="submit" value = "login"/>
+        </form>
+        <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
+
+    </div>
+
+
+
+
 
 </main>
 <footer>
