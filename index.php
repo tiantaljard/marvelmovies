@@ -16,8 +16,9 @@
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p>$db</p>
-
+        <?php
+        echo "<p>".$row ['$db']. " - "."</p>";
+        ?>
     </section>
 
 </main>
