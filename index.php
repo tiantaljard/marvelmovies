@@ -15,7 +15,7 @@
         include 'dbConnect.php';
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
-
+        <p><a href="xmen.php">All X-MEN Movies</a></p>
 
     </section>
 
