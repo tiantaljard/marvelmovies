@@ -6,7 +6,7 @@
 </head>
 <body>
 <header>
-    <h1>X-Men Movies</h1>
+    <h1>X-Men  Movies</h1>
 </header>
 <main>
     <section>
