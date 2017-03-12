@@ -5,7 +5,7 @@
  * Date: 12/af03/2017
  * Time: 12:09
  */
-include("dbConnection.php");
+include("dbConnect.php");
 
 print " dbhost - " . $connectstr_dbhost . "<br>";
 print " dbname- " . $connectstr_dbname . "<br>";

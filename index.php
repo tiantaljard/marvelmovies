@@ -12,7 +12,7 @@
     <section>
         <h2>Connect to  database</h2>
         <?
-        include 'php\dbConnect.php';
+        include 'dbConnect.php';
         print " dbhost - ".$connectstr_dbhost."<br>";
         print " dbname- ".$connectstr_dbname."<br>";
         print " dbusername- ".$connectstr_dbusername."<br>";
@@ -20,7 +20,7 @@
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="utils\dbConnect.php">dbC22Aonnect</a></p>
+        <p><a href="dbConnect.php">dbC23Aonnect</a></p>
 
     </section>
 
