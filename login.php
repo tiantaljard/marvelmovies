@@ -20,11 +20,14 @@ if (empty($_POST["username"]) || empty($_POST["password"])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    //$sql_query = "SELECT marvelMovieID,yearReleased,title,productionStudio,notes FROM marvelmovies where UPPER(productionStudio) like '%FOX%'; ";
+    $sql_query = "SELECT marvelMovieID,yearReleased,title,productionStudio,notes FROM marvelmovies where UPPER(productionStudio) like '%FOX%'; ";
+    $result = $link->query($sql_query);
+
+    $sql_query = "SELECT uid FROM users  WHERE username='$username' and password='$password'; ";
     //$result = $link->query($sql_query);
 
-    $sql = "SELECT uid FROM users WHERE username='tian' and password='tian'";
-    $result = mysqli_query($db, $sql);
+    //$sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
+     $result = mysqli_query($db, $sql);
 
 
 
