@@ -15,11 +15,12 @@ foreach ($_SERVER as $key => $value) {
 $link = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
 
 
-define('DB_SERVER', 'your-azure-server');
-define('DB_USERNAME', 'your-username');
-define('DB_PASSWORD', 'your-password');
-define('DB_DATABASE', 'your-database');
+define('DB_SERVER', $connectstr_dbhost);
+define('DB_USERNAME', $connectstr_dbname);
+define('DB_PASSWORD', $connectstr_dbusername);
+define('DB_DATABASE', $connectstr_dbpassword);
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
 
 
 if (!$link) {
