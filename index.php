@@ -15,13 +15,16 @@
         include 'utils\dbConnect.php';
         print " dbhost - ".$connectstr_dbhost."<br>";
         print " dbname- ".$connectstr_dbname."<br>";
-        print " dbusername - ".$connectstr_dbhost." - ".$connectstr_dbname." - ". $connectstr_dbusername." - ".$connectstr_dbpassword ;
-        print " dbpassword - ".$connectstr_dbhost." - ".$connectstr_dbname." - ". $connectstr_dbusername." - ".$connectstr_dbpassword ;
+        print " dbusername- ".$connectstr_dbusername."<br>";
+        print " dbpassword- ".$connectstr_dbpassword."<br>";
+        print " db- ".$db."<br>";
+        print " link- ".$link."<br>";
+
 
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="utils\dbConnect.php">dbC18Aonnect</a></p>
+        <p><a href="utils\dbConnect.php">dbC19Aonnect</a></p>
 
     </section>
 
