@@ -13,7 +13,7 @@
         <h2>List of all Marvel Movies</h2>
         <?
         include 'dbConnect.php';
-        $sql_query = "SELECT marvelMovieID,yearReleased,title,productionStudio,notes FROM marvelmovies where uppoer(productionStudio) like '%FOX%'; ";
+        $sql_query = "SELECT marvelMovieID,yearReleased,title,productionStudio,notes FROM marvelmovies where upper(productionStudio) like '%FOX%'; ";
         $result = $link->query($sql_query);
         while($row = $result->fetch_array()){
             // print out fields from row of data
