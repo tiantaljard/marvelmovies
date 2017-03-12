@@ -12,6 +12,7 @@
     <section>
         <h2>List of all Marvel Movies</h2>
         <?
+        include 'dbConnect.php';
         $sql_query = "SELECT marvelMovieID,yearReleased,title,productionStudio,notes FROM marvelmovies; ";
         $result = $link->query($sql_query);
         while($row = $result->fetch_array()){
