@@ -17,7 +17,7 @@
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
         <?php
-        echo "<p>{$db}</p>";
+        echo "<p>$db</p>";
         ?>
     </section>
 
