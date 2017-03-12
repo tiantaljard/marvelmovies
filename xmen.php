@@ -21,7 +21,7 @@
             $notes=$row ['notes'];
             $notesnull=is_null($notes);
                 //echo "<p>$notes</p>";
-                if (is_null($notes)) {
+                if (is_null($notesnull)) {
                     echo "<p> no notes</p>";
                 }
                 else {
