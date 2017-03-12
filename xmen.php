@@ -19,8 +19,8 @@
             // print out fields from row of data
             echo "<p>".$row ['marvelMovieID']. " - ". $row ['yearReleased']." - ".$row ['title']." - ".$row ['productionStudio']."</p>";
             $notes=$row ['notes'];
-
-                echo "<p>is_null($notes)</p>";
+            $notesnull=is_null($notes);
+                echo "<p>$notesnull</p>";
 
 
         }
