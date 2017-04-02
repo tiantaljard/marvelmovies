@@ -20,12 +20,12 @@
         ?>
         <p><a href="all.php">All Marvel Movies</a></p>
         <p><a href="xmen.php">All X-MEN Movies</a></p>
-        <p><a href="dbConnect.php">dbC30Aonnect</a></p>
+        <p><a href="dbConnect.php">dbC33Aonnect</a></p>
 
     </section>
 
     <div class="loginBox">
-        <h3>Login Form YESz</h3>
+        <h3>Login Form</h3>
         <br><br>
         <form method="post" action="login.php">
             <label>Username:</label><br>
